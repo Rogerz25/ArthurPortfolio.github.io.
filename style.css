@@ -122,15 +122,15 @@ inset: 0;
 background:
     linear-gradient(
         90deg,
-        rgba(3, 6, 11, 0.38),
-        rgba(3, 6, 11, 0.16) 48%,
-        rgba(3, 6, 11, 0.05)
+        rgba(3, 6, 11, 0.50),
+        rgba(3, 6, 11, 0.36) 48%,
+        rgba(3, 6, 11, 0.15)
     ),
     linear-gradient(
         0deg,
-        rgba(3, 6, 11, 0.38),
+        rgba(3, 6, 11, 0.50),
         transparent 48%,
-        rgba(3, 6, 11, 0.10)
+        rgba(3, 6, 11, 0.18)
     );
 
 z-index: -4;
@@ -1117,7 +1117,11 @@ nav.open {
 */
 
 .hero-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     opacity: 0.9;
+  
 
     filter:
         brightness(1.25)
